@@ -5,7 +5,7 @@ import { transporter } from "./email-config-middleware.js";
 const sendEmail = async (name, email, subject, message) => {
   const info = await transporter.sendMail({
     from: `"${name}" <${email}>`,
-    to: "me.pinnacle.027@gmail.com",
+    to: "sharma.sumit.6574@gmail.com",
     subject: subject,
     text: subject, // plain‑text body
     html: contactFromUserTemplate

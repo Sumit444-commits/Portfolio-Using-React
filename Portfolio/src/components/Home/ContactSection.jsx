@@ -8,7 +8,7 @@ import {
   FaCheckCircle,
   FaExclamationTriangle,
 } from "react-icons/fa";
-import { toast, Bounce } from "react-toastify";
+import { toast } from "react-toastify";
 
 const ContactSection = ({ darkMode, sectionRefs }) => {
   const [form, setForm] = useState({
@@ -148,24 +148,7 @@ const ContactSection = ({ darkMode, sectionRefs }) => {
     setForm(prev => ({ ...prev, [name]: value }));
   }, [errors]);
 
-  // Show toast notification
-  const showToast = useCallback((type, message) => {
-    const config = {
-      position: "top-right",
-      autoClose: 3000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: false,
-      draggable: true,
-      progress: undefined,
-      theme: darkMode ? "light" : "dark",
-      transition: Bounce,
-    };
 
-    type === "success" 
-      ? toast.success(message, config) 
-      : toast.error(message, config);
-  }, [darkMode]);
 
   // Form submission
   const handleSubmit = useCallback(async (e) => {
@@ -191,7 +174,7 @@ const ContactSection = ({ darkMode, sectionRefs }) => {
 
       if (response.ok) {
         setSubmitStatus("success");
-        showToast("success", "Message sent successfully! I'll get back to you soon.");
+        toast.success("Message sent successfully!", { theme: darkMode ? "dark" : "light" });
         setForm({ name: "", email: "", subject: "", message: "" });
       } else {
         throw new Error(`Server responded with status: ${response.status}`);
@@ -199,12 +182,12 @@ const ContactSection = ({ darkMode, sectionRefs }) => {
     } catch (error) {
       console.error("Submission error:", error);
       setSubmitStatus("error");
-      showToast("error", "Something went wrong. Please try again.");
+      toast.error("Something went wrong. Please try again.", { theme: darkMode ? "dark" : "light" });
     } finally {
       setIsSubmitting(false);
       setTimeout(() => setSubmitStatus(null), 5000);
     }
-  }, [form, validateForm, showToast]);
+  }, [form, validateForm,toast]);
 
   // Form fields configuration
   const formFields = useMemo(() => [

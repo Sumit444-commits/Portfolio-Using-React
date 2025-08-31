@@ -3,6 +3,7 @@ import { transporter } from "./email-config-middleware.js";
 
 // Wrap in an async IIFE so we can use await.
 const sendEmail = async (name, email, subject, message) => {
+   console.log("i worked upto yet")
   const info = await transporter.sendMail({
     from: `"${name}" <${email}>`,
     to: "sharma.sumit.6574@gmail.com",

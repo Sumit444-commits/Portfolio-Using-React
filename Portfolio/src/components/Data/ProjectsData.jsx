@@ -16,6 +16,30 @@ export const projects = [
     ],
   },
   {
+    title: "Thumblify",
+    image: "/images/projects/thumblify.png",
+    description:
+      "AI-powered thumbnail generator using Bytez.js and Cloudinary to create high-quality, platform-specific visuals for content creators.",
+    // viewLink: "https://thumblify.vercel.app/",
+    codeLink: "https://github.com/Sumit444-commits/Thumblify",
+    technologies: ["React", "Node.js", "Bytez.js", "Cloudinary", "MongoDB"],
+  },
+  {
+    title: "AI Code Reviewer",
+    image: "/images/projects/ai-code-reviewer.png",
+    description:
+      "A full-stack MERN application utilizing Gemini 3 Flash Thinking Mode to provide architectural insights and senior-level code reviews.",
+    viewLink: "https://ai-code-reviewer-tau-jet.vercel.app/",
+    codeLink: "https://github.com/Sumit444-commits/ai-code-reviewer",
+    technologies: [
+      "React",
+      "Tailwind CSS v4",
+      "Gemini 3 Flash",
+      "Node.js",
+      "Vercel",
+    ],
+  },
+  {
     title: "TrunPage",
     image: "/images/projects/trunpage.png",
     description:

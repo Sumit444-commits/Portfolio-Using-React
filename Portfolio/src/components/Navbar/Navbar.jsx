@@ -26,7 +26,7 @@ const Navbar = ({ darkMode, toggleDarkMode, activeSection }) => {
         
         {/* Logo */}
         <button onClick={()=>scrollToSection("home")} className={`text-xl sm:text-2xl font-bold hover:text-blue-600 transition-all ease-in-out duration-300 ${darkMode ? 'text-white' : 'text-gray-800'}`}><span>&lt;</span>Sumit <span>/&gt;</span></button>
-
+        
         {/* Mobile Menu Button */}
         <div className="flex items-center gap-4">
           {/* Dark/Light Mode Toggle */}

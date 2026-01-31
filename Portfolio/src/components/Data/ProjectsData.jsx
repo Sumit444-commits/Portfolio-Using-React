@@ -1,5 +1,21 @@
 export const projects = [
   {
+    title: "Autome",
+    image: "/images/projects/autome.png",
+    description:
+      "AI-powered documentation engine that analyzes GitHub repositories to generate professional, context-aware READMEs in seconds.",
+    viewLink: "https://autome.vercel.app/",
+    codeLink: "https://github.com/Sumit444-commits/autome",
+    technologies: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Gemini AI",
+      "Octokit",
+    ],
+  },
+  {
     title: "TrunPage",
     image: "/images/projects/trunpage.png",
     description:
@@ -90,7 +106,7 @@ export const projects = [
       "Gemini",
     ],
   },
-    {
+  {
     title: "UltraEdit UI Clone",
     image: "/images/projects/ultraEdit.png",
     description:

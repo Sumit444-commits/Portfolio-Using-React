@@ -57,8 +57,8 @@ const CertificationSection = ({darkMode,sectionRefs,handleViewCertificate}) => {
                           onClick={() => setShowAll(!showAll)}
                           className={`px-10 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg ${
                             darkMode
-                              ? "bg-transparent border text-white hover:bg-blue-500 shadow-blue-500/20"
-                              : "bg-transparent border text-white hover:bg-blue-700 shadow-blue-600/30"
+                              ? "bg-blue-600 text-white hover:bg-blue-500 shadow-blue-500/20"
+                              : "bg-blue-600 text-white hover:bg-blue-700 shadow-blue-600/30"
                           }`}
                         >
                           {showAll ? "Show Less" : "View All Projects"}

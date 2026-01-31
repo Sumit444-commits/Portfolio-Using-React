@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "Autome",
-    image: "/images/projects/autome.png",
+    image: "/images/projects/automeThumbnail.png",
     description:
       "AI-powered documentation engine that analyzes GitHub repositories to generate professional, context-aware READMEs in seconds.",
     viewLink: "https://autome.vercel.app/",

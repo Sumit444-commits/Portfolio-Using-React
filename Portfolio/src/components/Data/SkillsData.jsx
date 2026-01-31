@@ -1,49 +1,4 @@
-// export const skillsData = {
-//   frontend: {
-//     title: "Full Stack Development",
-//     desc: "Creating responsive and interactive user interfaces with modern frameworks.",
-//     color: "blue",
-//     skills: [
-//       { name: "React", icon: "/icons/react.svg" },
-//       { name: "Angular", icon: "/icons/react.svg" },
-//       { name: "JavaScript", icon: "/icons/react.svg" },
-//       { name: "TypeScript", icon: "/icons/react.svg" },
-//       { name: "HTML5", icon: "/icons/react.svg" },
-//       { name: "CSS3", icon: "/icons/react.svg" },
-//       { name: "Tailwind", icon: "/icons/react.svg" },
-//     ]
-//   },
-//   mobile: {
-//     title: "Mobile Development",
-//     desc: "Building cross-platform mobile applications with native performance.",
-//     color: "purple",
-//     skills: [
-//       { name: "React Native", icon: "/icons/react.svg" },
-//       { name: "Flutter", icon: "/icons/react.svg" },
-//       { name: "iOS", icon: "/icons/react.svg" },
-//       { name: "Android", icon: "/icons/react.svg" },
-//       { name: "PWA", icon: "/icons/react.svg" },
-//       { name: "Expo", icon: "/icons/react.svg" },
-//     ]
-//   },
-//   design: {
-//     title: "AI Engineering",
-//     desc: "Designing intuitive and beautiful user experiences that delight users.",
-//     color: "green",
-//     skills: [
-//       { name: "Python", icon: "/icons/react.svg" },
-//       { name: "TensorFlow", icon: "/icons/react.svg" },
-//       { name: "scikit-learn", icon: "/icons/react.svg" },
-//       { name: "pandas", icon: "/icons/react.svg" },
-//       { name: "numpy", icon: "/icons/react.svg" },
-//       { name: "Matplotlib", icon: "/icons/react.svg" },
-//       { name: "Plotly", icon: "/icons/react.svg" },
-//     ]
-//   }
-// };
-
 // Additional color options
-
 export const skillsData = {
   fullstack: {
     title: "Full Stack Development (MERN)",

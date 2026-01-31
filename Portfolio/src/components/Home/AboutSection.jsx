@@ -96,7 +96,7 @@ const AboutSection = ({darkMode,sectionRefs}) => {
                     <span className="font-semibold text-blue-600">
                       Software Engineering student
                     </span>{" "}
-                    (currently in 3rd year, CGPA 3.61) with hands-on experience
+                    with hands-on experience
                     in{" "}
                     <span className="font-semibold text-blue-600">
                       full-stack MERN development

@@ -1,39 +1,3 @@
-// import React from "react";
-// import { FaCertificate } from "react-icons/fa";
-
-// const CertificationCard = ({ cert, darkMode, onViewCertificate }) => {
-//   return (
-//     <div
-//       className={`rounded-2xl overflow-hidden transition-all duration-300 transform hover:scale-105 cursor-pointer ${
-//         darkMode
-//           ? "bg-gray-800/50 border border-gray-700/30 hover:border-blue-500/50"
-//           : "bg-white border border-gray-200/50 hover:border-blue-500/50"
-//       } shadow-lg backdrop-blur-sm`}
-//       onClick={() => onViewCertificate(cert)}
-//     >
-//       <div className="p-6">
-//         <div className={`flex items-center justify-center h-10  ${
-//           darkMode ? "bg-blue-900/30 text-blue-400" : "bg-blue-100 text-blue-600"
-//         }`}>
-//           {/* <FaCertificate className="text-xl" /> */}
-//           <img className="" src={cert.image} alt={cert.title} />
-//         </div>
-//         <h3 className={`text-xl font-bold mb-2 ${darkMode ? "text-white" : "text-black"}`}>{cert.title}</h3>
-//         <p className={`mb-2 ${darkMode ? "text-gray-300" : "text-gray-600"}`}>
-//           {cert.issuer}
-//         </p>
-//         <p className={`text-sm ${darkMode ? "text-gray-400" : "text-gray-500"}`}>
-//           Issued: {cert.date}
-//         </p>
-//         <div className="mt-4 text-sm text-blue-600 dark:text-blue-400 font-medium">
-//           Click to view certificate
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default CertificationCard;
 
 import React from "react";
 import { FaCertificate, FaExternalLinkAlt } from "react-icons/fa";
